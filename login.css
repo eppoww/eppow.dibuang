@@ -1,0 +1,223 @@
+.background{
+position: fixed;
+width: 1980px;
+height: 1024px;
+margin-top: -20px;
+margin-left: -20px;
+background: #ffffff;
+}
+
+.bgimg img{
+    
+position: fixed;
+width: 1920px;
+height: 500px;
+left: 0px;
+margin-top: -425px;
+top: 421px;
+}
+
+.linear{
+position: absolute;
+width: 1930px;
+height: 929px;
+margin-left: 10px;
+margin-top: -60px;
+background: linear-gradient(180deg, #D9D9D9 -42%, rgba(255, 255, 255, 0.5) -41.99%, rgba(145, 145, 145, 0.283883) -41.98%, rgba(255, 254, 254, 0.94) 60.33%, rgba(255, 245, 245, 0) 63.06%);
+}
+
+.bgputih{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 760px;
+    height: 740px;
+    left: 600px;
+    top: 150px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+.bghead{
+    position: fixed;
+    width: 1940px;
+    height: 120px;
+    margin-left: -0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+}
+
+.vectorbuangsampah img{
+position: fixed;
+margin-left: 260px;
+width: 250px;
+height: 250px;
+}
+
+.garis{
+position: absolute;
+width: 456.01px;
+height: 0px;
+left: 146px;
+top: 260px;
+
+border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.email{
+position: fixed;
+width: 569px;
+height: 51px;
+left: 680px;
+top: 460px;
+
+background: rgba(216, 216, 216, 0.7);
+border-radius: 12px;
+}
+
+.password{
+    position: fixed;
+width: 569px;
+height: 51px;
+left: 680px;
+top: 540px;
+
+background: rgba(216, 216, 216, 0.7);
+border-radius: 12px;
+}
+
+.email,.password{
+    padding-left: 20px;
+    font-size: 18px;
+    border: none;
+}
+.email:focus,.password:focus{
+    outline: none;
+}
+
+.login{
+position: fixed;
+width: 567px;
+height: 49px;
+left: 680px;
+top: 630px;
+
+background: rgba(15, 52, 186, 0.7);
+border-radius: 12px;
+}
+
+.email h5{
+    position: absolute;
+    font-family: 'Calibri' ;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 12px;
+    opacity: 0.5;
+}
+
+.password h5{
+    position: absolute;
+    font-family: 'Calibri' ;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 12px;
+    opacity: 0.5;
+}
+
+.login h3{
+    position: fixed;
+    margin-left: 255px;
+    margin-top: 12px;
+    color: #FFFFFF;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.create_forgot h5{
+    position: fixed;
+    margin-left: 267px;
+    margin-top: 560px;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.google{
+    position: fixed;
+    width: 569px;
+    height: 51px;
+    left: 680px;
+    top: 750px;
+    
+    background: rgba(216, 216, 216, 0.7);
+    border-radius: 12px;
+}
+
+.google img{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.teks_google{
+    position: fixed;
+    margin-left: 224px;
+    margin-top: -12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    opacity: 0.5;
+
+}
+
+
+.bghead h4 a{
+    color: #59AA47  ;
+}
+
+.nav {
+    display: flex;
+      align-items: center;
+      justify-content: space-around;
+      min-height: 200px;
+      margin-top: -29px;
+  }
+  
+  .menu{
+      display: inline-block;
+      position: relative;
+  }
+  
+  .text{
+      text-decoration: none;
+      color: #59AA47;
+      font-size: 20px;
+      font-family: 'calibri';
+      padding: 35px;
+  }
+  
+  .text::after{
+      content: '';
+      position: absolute;
+      background-color: #59AA47;
+      height: 2px;
+      width: 0;
+      left: 0;
+      bottom: -10px;
+      transition: 0.4s;
+  
+  }
+  
+  .text:hover{
+      color: #59AA47;
+  }
+  
+  .text:hover::after{
+      width: 100%;
+  }
+
+
